@@ -15,7 +15,7 @@ public class App
         System.out.println("Balance: " + bankAccount.getBalance());
         bankAccount.withdraw(100);
         System.out.println("Balance: " + bankAccount.getBalance());
-        //bankAccount.withdraw(-1);
+//        bankAccount.withdraw(-1);
 
         Customer customer2= new Customer("Simon","Elbrink", "123456789","simon.elbrink@lexicon.se");
         BankAccount bankAccount2= new BankAccount(2, 100, customer2);
